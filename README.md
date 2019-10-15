@@ -17,3 +17,9 @@ Set up the environment:
 
 Run jupyter notebooks:
 `jupyter notebook`
+
+# Licence
+
+![the Creative Common BY-SA-4.0 licence](https://tomorrowdata.io/wp-content/uploads/2015/08/88x31.png)
+
+Except where otherwise noted, all content of this **machine-learning-course-notebooks** repository are distributed under [the Creative Common BY-SA-4.0 licence](https://creativecommons.org/licenses/by-sa/4.0/)
