@@ -18,11 +18,16 @@ Notebooks for hands-on on machine learning supervised and unsupervised tasks.
 
 ### Create Virtual Environment
 
-3. Open **Anaconda Navigator** and select *Environments* on the left side panel
+   1. Open **Anaconda Navigator** and select *Environments* on the left side panel <br><br>![import-example](images/anaconda-new-env1.PNG)
+
+
 4. Click *Import* and use the `environment.yml` as specification File. Use *mlenv* as name for the environment
-5. Once installed, go to the *Home* panel and be sure the installed environment is selected
-6. Launch jupyter notebook and navigate to the repository folder
-7. Open the notebook you want to run
+   <br><br>![import-example](images/anaconda-new-env2.PNG)
+
+
+1. Once installed, go to the *Home* panel and be sure the installed environment is selected <br><br>![import-example](images/anaconda-new-env3.PNG)
+2. Launch jupyter notebook and navigate to the repository folder
+3. Open the notebook you want to run
 
 ## Setup Environment on Linux
 
@@ -46,6 +51,9 @@ To set up the conda environment with the required packages and running the noteb
 
 4. Run jupyter notebooks:
 `jupyter notebook`
+
+<hr>
+
 
 # Licence
 
