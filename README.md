@@ -14,7 +14,7 @@ Notebooks for hands-on on machine learning supervised and unsupervised tasks.
 
 1. Get the Anaconda (Individual Edition) [here](https://www.anaconda.com/products/individual)
 
-2. Install Anaconda on your machine. Pay attention when the installer asks for *Register Anaconda3 as my default Python 3.8`, untick it if you dont wont to
+2. Install Anaconda on your machine. Pay attention when the installer asks for *Register Anaconda3 as my default Python 3.8*, untick it if you dont wont to
 
 ### Create Virtual Environment
 
