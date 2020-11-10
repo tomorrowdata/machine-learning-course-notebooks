@@ -1,0 +1,12 @@
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - jupyter
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - pydotplus
+  - graphviz
+  - notebook
+  - codecov
