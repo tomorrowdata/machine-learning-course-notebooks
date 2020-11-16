@@ -6,8 +6,8 @@ Notebooks for hands-on on machine learning supervised and unsupervised tasks.
 ## Notebook list
 
 1. Hands-On 1: Python and Pandas Tutorial 
-2. Hands-On 2: Supervised Learning
-3. Hands-On 3: Unsupervised Learning
+2. Hands-On 2: Unsupervised Learning
+3. Hands-On 3: Supervised Learning
 4. Hands-On 4: Model Selection
 
 <hr>
