@@ -10,3 +10,5 @@ dependencies:
   - graphviz
   - notebook
   - codecov
+  - pip:
+    - mglearn==0.1.7

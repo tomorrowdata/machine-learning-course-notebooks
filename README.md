@@ -43,15 +43,12 @@ Notebooks for hands-on on machine learning supervised and unsupervised tasks.
 To set up the conda environment with the required packages and running the notebooks, execute the following command:
 
 1. Create a new virtual environment:
-`conda create --name mlenv --python=3.7`
+`conda env create -n mlenv -f=./environment.yml`
 
-2. Set up the environment:
+1. Set up the environment:
 `conda activate mlenv`
 
-3. Install required packages:
-`pip install -r requirements.txt`
-
-4. Run jupyter notebooks:
+3. Run jupyter notebooks:
 `jupyter notebook`
 
 <hr>
