@@ -20,12 +20,10 @@ RUN pip install jupyter_contrib_nbextensions
 RUN jupyter contrib nbextension install --user
 
 # enable nbextensions
-RUN jupyter nbextension enable contrib_nbextensions_help_item/main
 RUN jupyter nbextension enable autosavetime/main
 RUN jupyter nbextension enable codefolding/main
 RUN jupyter nbextension enable code_font_size/code_font_size
 RUN jupyter nbextension enable code_prettify/code_prettify
-RUN jupyter nbextension enable collapsible_headings/main
 RUN jupyter nbextension enable comment-uncomment/main
 RUN jupyter nbextension enable equation-numbering/main
 RUN jupyter nbextension enable execute_time/ExecuteTime

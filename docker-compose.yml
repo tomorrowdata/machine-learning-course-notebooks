@@ -15,10 +15,16 @@ services:
       - PROCESSED=/data/processed/
     volumes:
       - type: bind
+        source: ./resources
+        target: /home/jupuser/resources
+      - type: bind
+        source: ./solutions
+        target: /home/jupuser/solutions
+      - type: bind
         source: ./datasets
-        target: /datasets
+        target: /home/jupuser/datasets
       - type: bind
         source: ./notebooks
-        target: /notebooks
+        target: /home/jupuser/notebooks
 
-    command: [ "bash", "-c", "jupyter notebook --notebook-dir /notebooks  --ip 0.0.0.0 --no-browser" ]
+    command: [ "bash", "-c", "jupyter notebook --notebook-dir /home/jupuser/  --ip 0.0.0.0 --no-browser" ]
