@@ -1,0 +1,41 @@
+{
+    "snippets" : [
+        {
+            "name" : "div-red",
+            "code" : [
+                "<div class='alert alert-danger'>",
+                "</div>"
+            ]
+        },
+        {
+            "name" : "div-green",
+            "code" : [
+                "<div class='alert alert-success'>",
+                "</div>"
+            ]
+        },
+        {
+            "name" : "div-yellow",
+            "code" : [
+                "<div class='alert alert-warning'>",
+                "</div>"
+            ]
+        },
+        {
+            "name" : "div-blue",
+            "code" : [
+                "<div class='alert alert-info'>",
+                "</div>"
+            ]
+        }, 
+        {
+            "name": "autoreload", 
+            "code": [
+                "%reload_ext autoreload",
+                "%autoreload 2",
+                "import sys",
+                "sys.path.append('../')"
+            ]
+        }
+    ]
+}
