@@ -61,9 +61,9 @@ In order to build the docker image and start the development, install the follow
 3. [Docker Compose](https://docs.docker.com/compose/install/)
 
 
-## Build the Docker Image
+## Build the Docker Image (Jupyter Lab Version)
 
-After all installetion requirements have been satisfied, run the following command in order to build the docker image with the project path as the current directory:
+After requirements are satisfied, run the following command in order to build the docker image with the project path as the current directory:
 
 ```bash
 docker-compose build

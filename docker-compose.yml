@@ -7,12 +7,6 @@ services:
       dockerfile: ./build/Dockerfile
     ports:
       - "8887:8888"
-      - "8890-8899:8890-8899" # a bunch of ports to run multiple (10) bokeh servers :P
-    environment:
-      - BOKEH_ALLOW_WS_ORIGIN=127.0.0.1:8887,localhost:8887
-      - DATA=/data/vanilla/
-      - INTERIM=/data/interim/
-      - PROCESSED=/data/processed/
     volumes:
       - type: bind
         source: ./resources
@@ -27,4 +21,4 @@ services:
         source: ./notebooks
         target: /home/jupuser/notebooks
 
-    command: [ "bash", "-c", "jupyter notebook --notebook-dir /home/jupuser/  --ip 0.0.0.0 --no-browser" ]
+    command: [ "bash", "-c", "jupyter lab --notebook-dir /home/jupuser/  --ip 0.0.0.0 --no-browser" ]
