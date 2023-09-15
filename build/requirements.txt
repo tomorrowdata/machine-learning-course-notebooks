@@ -5,4 +5,4 @@ pydotplus
 graphviz
 notebook
 codecov
-mglearn==0.1.9
+mglearn==0.2
