@@ -2,7 +2,8 @@ FROM python:3.7-buster
 
 EXPOSE 8888
 
-RUN apt-get install graphviz
+RUN apt-get update
+RUN apt-get install graphviz -y
 
 RUN useradd -ms /bin/bash jupuser
 USER jupuser
